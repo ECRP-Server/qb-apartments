@@ -2,7 +2,7 @@ Apartments = {}
 Apartments.Starting = true
 Apartments.SpawnOffset = 30
 Apartments.Locations = {
-    ["apartment1"] = {
+--[[     ["apartment1"] = {
         name = "apartment1",
         label = "South Rockford Drive",
         coords = {
@@ -83,6 +83,23 @@ Apartments.Locations = {
             debug = false,
             length = 1,
             width = 2,
+            distance = 2.0,
+            created = false
+        }
+    }, ]]
+    ["apartment6"] = {
+        name = "apartment6",
+        label = "The Bay Inn",
+        coords = {
+            enter = vector4(-685.08, 7016.98, 41.54, 125.43),
+        },
+        polyzoneBoxData = {
+            heading = 125,
+            minZ = 40.5,
+            maxZ = 43.0,
+            debug = false,
+            length = 1,
+            width = 3,
             distance = 2.0,
             created = false
         }
